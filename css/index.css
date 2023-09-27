@@ -1,0 +1,65 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+.logos{
+    height: 45rem;
+}
+.logo{
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 20rem;
+}
+.palabras{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 34rem ;
+    grid-template-rows: 6.74rem 6.74rem 6.74rem ;
+    gap: 1.8rem;
+}
+.sing-in {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 1.8rem;
+}
+.sing-in a{
+    text-decoration: none;
+    color: white;
+}
+.create-account{
+    border-radius: 1.8rem;
+    border: 1px solid #000000;
+}
+.create-account a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.need-help{
+    border-radius: 1.8rem;
+}
+.l{
+
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2rem;
+}
+
+/* CSS QUE SOLO FUNCIONA EN UN  TELEFONO DE 480px*/
+@media screen and (max-width: 480px){
+
+    .login{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+    }
+}
